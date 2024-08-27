@@ -8,7 +8,7 @@ void main()
 //Now i  am working on strings
 var  name = ['Areena','Mahajabeeen','Bikias'];
 print(name.last);
-//name.sort();
+name.sort();
 print(name);
 name.replaceRange(name.length -1,name.length,["Hira"]);//how to replace a list by indeices ;
 print(name);
